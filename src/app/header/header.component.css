@@ -1,0 +1,35 @@
+.masterContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 0.8rem 1rem;
+
+  gap: 1rem;
+}
+
+.logoContainer{
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+
+  font-size: 2rem;
+}
+
+.informations{
+  display: flex;
+  align-items: center;
+
+  gap: 1rem;
+
+  span{
+    cursor: pointer;
+  }
+}
+
+.buttonsContainer{
+  display: flex;
+  align-items: center;
+
+  gap: 0.5rem;
+}

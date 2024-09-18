@@ -1,0 +1,14 @@
+.buttonContainer{
+  padding: 0.5rem;
+  border: aquamarine 2px solid;
+  background-color: transparent;
+
+  border-radius: 6px;
+  cursor: pointer;
+
+  transition: 0.5s;
+
+}
+.buttonContainer:hover{
+    transform: scale(1.1);
+}
