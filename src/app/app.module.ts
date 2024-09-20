@@ -6,12 +6,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ButtonHeaderComponent } from './button-header/button-header.component';
+import { BodyComponent } from './body/body.component';
+import { ButtonBodyComponent } from './button-body/button-body.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    ButtonHeaderComponent
+    ButtonHeaderComponent,
+    BodyComponent,
+    ButtonBodyComponent
   ],
   imports: [
     BrowserModule,

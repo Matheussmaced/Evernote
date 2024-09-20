@@ -1,7 +1,7 @@
 .buttonContainer{
-  padding: 0.5rem;
-  border: aquamarine 2px solid;
+  padding: 0.8rem;
   background-color: transparent;
+  border: 3px solid transparent;
 
   border-radius: 6px;
   cursor: pointer;
@@ -10,5 +10,6 @@
 
 }
 .buttonContainer:hover{
-    transform: scale(1.1);
+    transform: scale(1.03);
+    border: aquamarine 3px solid;
 }

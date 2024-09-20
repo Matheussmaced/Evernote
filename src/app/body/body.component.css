@@ -1,0 +1,30 @@
+.masterContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 5rem;
+  gap: 7rem;
+}
+
+.containerSon{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 1rem;
+
+  h1{
+    font-size: 3rem;
+    word-break: break-word;
+
+    color: white;
+  }
+
+  p{
+    font-size: 1.2rem;
+    word-break: break-word;
+
+    color: white;
+    font-weight: bolder;
+  }
+}
